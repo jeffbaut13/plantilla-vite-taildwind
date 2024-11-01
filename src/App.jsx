@@ -10,16 +10,15 @@ const App = () => {
   return (
     <>
       <Helmet>
-        <title>El Gran acto</title>
+        <title>title page</title>
         <link rel="canonical" href="/" />
         <meta
           name="description"
-          content="Nueva campaña de Inter Rapidísimo para Navidad."
+          content="content"
         />
       </Helmet>
 
       <React.StrictMode>
-        {/* Asegúrate de que RouterProvider envuelva todo */}
         <RouterProvider router={router} />
       </React.StrictMode>
     </>
